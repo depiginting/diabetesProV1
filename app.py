@@ -202,7 +202,7 @@ with col3:
         else:
             diab_diagnosis = st.success("Pasien Negatif Diabetes, tetap jaga kesehatan")
             dbt = "negatif"
-        newdata =(ct,nama,int(Age),jk,pr,pl,swl,ws,gt,vb,ic,ir,dh,pp,ms,al,ob,dm,dbt)
+        newdata =(ct,nama,int(Age),jk,dbt,pr,pl,swl,ws,gt,vb,ic,ir,dh,pp,ms,al,ob,dm)
        # for row in newdata:
        ########## Kirim data ke GoogleSheet ##############
         # sheet.append(newdata)
