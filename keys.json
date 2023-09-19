@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ornate-spring-275514",
+  "private_key_id": "4d23759fe9e6e861cc030ad0372b509114ca5a8a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiykG1X+crdKLx\n705AjoIzeRGYT7sdGb2Lfy0tJ0rwKLSBQiTbZOsurBax3xFSgP7A/u6H10y/rmN9\niCiy3Mg7NX9mn2qciT8s+Pt9PpYtA1237mZdztjgO/7VQuWefuMV7/GBb1luyM/5\nhFDE0Lczea+RvLUoNXUDIKuDXjgpfyLD6n9LLEfbyr4lZ9GL/9j6YYd4bCPpA7k1\n/34+VZ8W17QMr3Av66p8dBtfzm0eMklliYMywb4cHciEd99z4faCf637NgWp+z/p\nNQzg77SNjiQoqFHi7Wx3X3Uf6RUL0cjGcdJ06nMYo65qxd/5uhtTmdzkHPcf6/Sx\nPXevyLA9AgMBAAECggEALqE53i7Y5Fk2HY/7PcG0aPMah6L7CZRod29X7PGu5Qj7\n33SnYxLOzSEtJQktCJF7p6O+hrm0uclFpV0dr1JPpqol0qsCWlFz/7lYLGGDmeQ3\ncaq/tso71EtLLSJK7LIS8SM4beeL2hB6hlIQ4reYao3GLTw9NgXN/TXb+za/Zp8X\nyLI1dtuzNTmaOBvuo6ZknKrMssdBhhm+8bRCzzNpxTeL7Z+siVVGQUawInSSzILC\nQGwqzyZuq7D1lo94dRWKtC1ekbwcJomRMBoMJ0IzeOOTEV6Hw6w4Q2YrxsUyzHGW\na9CVAkXsM0zDj+j4vmioVnN8j8lR0lvRJqESFPM9DwKBgQDQEwJXOCpwjJ34zLoG\nlloYOTj8XRJzcX1xGMDpfc10OWDMOLFicb89Rt541s5H0z5qrmDT22pt5XvfM1MI\nvyku5gWFVLT9VUIC7N6z9Z2kX+nOAUpE9ZMs3PBQWd0DKcQWD+o6CWDTeUW5WS+a\nc60Tcej/pSPQImzbm4oKh1COrwKBgQDISRa2AcSP+20QKanSMV7BXEzxOelSyikw\nNZVqDiTIFzuxHv6Mm4SMKGC9AmaeAY7DDOcIjMY0bSh6KWlrNHkSGaZhT4LowKaB\nOQhAc0h65mUb/G4XspWQNbLiBX5VRKZ9EQZJBVKXhqTIZED73zswRdfaJ0tVgqOe\nHvbUwEPK0wKBgCMQUQCpsl0tFSHsPh0GEUCrw/KjLIzPvzfj1/6A+LJxSOKhWyMf\nz/5fhvYOHMz1yDrqD98jxpemaG2AlKmQrTv9/0gssiNOzsT3bcAdz+b3UssoZH+i\ncp7IzKZ9vkTeMPEW1X3aPrrkYN+PK/p3K99u/ri194cHhhir6WNE0kp5AoGBALE4\nqxXlvo5AxaKVmyTYdqXWDGcu/Rw6sfNsloc/eKBsnm79o/O68LAsUl0ssKyDaFWD\nJzNTjVZ6eGSQHC22QqMXezeD6awWO78APiL5X1sQXstCtA/X/6uZOG3yunSsyDzG\nQa9/PDPD+i8vNqkoP/FY+8SXHHvPmwOhFnvunI3tAoGAUsN8/aRL9PVDjvPRbrs1\n0yRjj0UE3F/nVXGurTLgL6gCKF54q9YcOqNxM+Ul8YmGdlSM/DrnwP7dPO/V1EYm\nisCpWNSD8mwXN+Jrr3Lq5LY6exy3ejo5GcaKx9RX7ASDetDBp5MaLggVPsdQCUvs\nc1rVbsDHgpahjU7qmsMowYY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlit-diabetes@ornate-spring-275514.iam.gserviceaccount.com",
+  "client_id": "113787395927401879237",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlit-diabetes%40ornate-spring-275514.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
