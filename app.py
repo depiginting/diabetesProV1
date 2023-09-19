@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 import pandas as pd
-import gspread #pip install gspread
+# import gspread #pip install gspread
 from openpyxl import load_workbook
 from time import strftime
 ct = strftime("%Y-%m-%d %H:%M:%S")
