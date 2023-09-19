@@ -1,8 +1,8 @@
 import pickle
 import streamlit as st
 import pandas as pd
-# import gspread #pip install gspread
-from openpyxl import load_workbook
+import gspread #pip install gspread
+# from openpyxl import load_workbook
 from time import strftime
 ct = strftime("%Y-%m-%d %H:%M:%S")
 # wb_append = load_workbook("db.xlsx") 
