@@ -17,11 +17,11 @@ data = (
 
 
 st.subheader("Diabetes Prediction ", divider="rainbow")
-st.caption("Machine learning methode | Developer : Depi | Universitas Syiah Kuala 2023")
+st.caption("Machine learning methode | Developer : Depi | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
 # membagi kolom
 diabetes_model = st.radio(
-    "Metode Prediksi",
-    ["kNN", "Support Vector", "Random Forest", "Decision Tree"],
+    "Akurasi Prediksi : Random Forest(97 % ) | Support Vector(96 % ) | kNN(90 % ) | Decision Tree(90 % )",
+    ["Random Forest", "Support Vector", "kNN", "Decision Tree"],
     horizontal=True,
 )
 dm = ""
