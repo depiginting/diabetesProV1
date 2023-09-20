@@ -42,13 +42,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
     nama = st.text_input("Nama")
 with col1:
-    Age = st.text_input("Usia")
+    Age = st.number_input("Usia",value=20)
 with col1:
     Gender = st.radio("Jenis Kelamin", ["Pria", "Wanita"],horizontal=True,)
     jk = ""
     if Gender == "Pria":
         Gender = 1
-        jk = "laki-Laki"
+        jk = "laki-laki"
     else:
         Gender = 0
         jk = "perempuan"
@@ -199,19 +199,28 @@ with col3:
         if diab_prediction[0] == 1:
             diab_diagnosis = st.warning("Peringatan ! Pasien Positif Diabetes, Segera hubungi dokter")
             dbt = "positif"
+            dbtx = 1
         else:
             diab_diagnosis = st.success("Pasien Negatif Diabetes, tetap jaga kesehatan")
             dbt = "negatif"
-        newdata =(ct,nama,int(Age),jk,dbt,pr,pl,swl,ws,gt,vb,ic,ir,dh,pp,ms,al,ob,dm)
+            dbtx = 0
+        newdata =(ct,nama,int(Age),jk,dm,dbt,pr,pl,swl,ws,gt,vb,ic,ir,dh,pp,ms,al,ob)
+        newdatax =(ct,nama,int(Age),jk,dm,dbtx,Polyuria,Polydipsia,sudden_weight_loss,weakness,Genital_thrush,visual_blurring,Itching,Irritability,delayed_healing,partial_paresis,muscle_stiffness,Alopecia,Obesity)
        # for row in newdata:
        ########## Kirim data ke GoogleSheet ##############
         # sheet.append(newdata)
         cred_file = "keys.json"
+        # cred_filex = "keys.json"
         gc = gspread.service_account(cred_file)
+        # gcx = gspread.service_account(cred_filex)
         database = gc.open("biabet_db")
+        # databasex = gcx.open("biabet_db")
         wks = database.worksheet("sample")
+        wksx = database.worksheet("numeric")
+        # list_wksx = databasex.worksheets()
         list_wks = database.worksheets()
         wks.append_row(newdata, table_range="A1:Z1") 
+        wksx.append_row(newdatax, table_range="A1:Z1") 
 
         # wks.append_row(data, table_range="A1:Z1") 
         ############ Selesai ########################
