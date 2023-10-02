@@ -17,7 +17,7 @@ data = (
 
 
 st.subheader("Prediksi Diabetes Algoritma kNN", divider="rainbow")
-st.caption("Machine learning methode | Developer : Depi | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
+st.caption("Machine learning methode | Developer : Kelompok 1 | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
 diabetes_model = pickle.load(open("knn.sav", "rb"))
 dm = ""
 # membagi kolom
