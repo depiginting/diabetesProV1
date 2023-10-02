@@ -19,13 +19,13 @@ data = (
 st.subheader("Prediksi Diabetes Algoritma kNN", divider="rainbow")
 st.caption("Machine learning methode | Developer : Depi | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
 diabetes_model = pickle.load(open("knn.sav", "rb"))
+dm = ""
 # membagi kolom
 # diabetes_model = st.radio(
 #     "Akurasi Prediksi : Random Forest( 97% ) | Support Vector( 96% ) | kNN( 90% ) | Decision Tree( 90% )",
 #     ["Random Forest", "Support Vector", "kNN", "Decision Tree"],
 #     horizontal=True,
 # )
-dm = ""
 # if diabetes_model == "kNN":
 #     diabetes_model = pickle.load(open("knn.sav", "rb"))
 #     dm = "kNN"
