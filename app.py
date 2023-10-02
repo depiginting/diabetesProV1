@@ -16,7 +16,7 @@ data = (
 # wb_append.save('db.xlsx')
 
 
-st.subheader("Diabetes Prediction ", divider="rainbow")
+st.subheader("Diabetes Prediction kNN Algoritm", divider="rainbow")
 st.caption("Machine learning methode | Developer : Depi | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
 diabetes_model = pickle.load(open("knn.sav", "rb"))
 # membagi kolom
