@@ -25,7 +25,7 @@ diabetes_model = pickle.load(open("knn.sav", "rb"))
 #     ["Random Forest", "Support Vector", "kNN", "Decision Tree"],
 #     horizontal=True,
 # )
-# dm = ""
+dm = ""
 # if diabetes_model == "kNN":
 #     diabetes_model = pickle.load(open("knn.sav", "rb"))
 #     dm = "kNN"
