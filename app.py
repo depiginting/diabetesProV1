@@ -18,25 +18,26 @@ data = (
 
 st.subheader("Diabetes Prediction ", divider="rainbow")
 st.caption("Machine learning methode | Developer : Depi | Dataset : UCI Machine Learning Repository | Universitas Syiah Kuala 2023")
+diabetes_model = pickle.load(open("knn.sav", "rb"))
 # membagi kolom
-diabetes_model = st.radio(
-    "Akurasi Prediksi : Random Forest( 97% ) | Support Vector( 96% ) | kNN( 90% ) | Decision Tree( 90% )",
-    ["Random Forest", "Support Vector", "kNN", "Decision Tree"],
-    horizontal=True,
-)
-dm = ""
-if diabetes_model == "kNN":
-    diabetes_model = pickle.load(open("knn.sav", "rb"))
-    dm = "kNN"
-elif diabetes_model == "Support Vector":
-    diabetes_model = pickle.load(open("svc.sav", "rb"))
-    dm = "support vector"
-elif diabetes_model == "Random Forest":
-    diabetes_model = pickle.load(open("rf.sav", "rb"))
-    dm = "random forest"
-else:
-    diabetes_model = pickle.load(open("decision.sav", "rb"))
-    dm = "decision tree"
+# diabetes_model = st.radio(
+#     "Akurasi Prediksi : Random Forest( 97% ) | Support Vector( 96% ) | kNN( 90% ) | Decision Tree( 90% )",
+#     ["Random Forest", "Support Vector", "kNN", "Decision Tree"],
+#     horizontal=True,
+# )
+# dm = ""
+# if diabetes_model == "kNN":
+#     diabetes_model = pickle.load(open("knn.sav", "rb"))
+#     dm = "kNN"
+# elif diabetes_model == "Support Vector":
+#     diabetes_model = pickle.load(open("svc.sav", "rb"))
+#     dm = "support vector"
+# elif diabetes_model == "Random Forest":
+#     diabetes_model = pickle.load(open("rf.sav", "rb"))
+#     dm = "random forest"
+# else:
+#     diabetes_model = pickle.load(open("decision.sav", "rb"))
+#     dm = "decision tree"
 # judul web
 col1, col2, col3 = st.columns(3)
 with col1:
